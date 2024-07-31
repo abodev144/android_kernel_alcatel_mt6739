@@ -1368,7 +1368,7 @@ CONFIG_MTK_IMGSENSOR=y
 # CONFIG_SPECIFY_IMGSENSOR is not set
 CONFIG_MTK_JPEG=y
 CONFIG_MTK_LCM=y
-CONFIG_CUSTOM_KERNEL_LCM="u5a_ili9806e_hd_dsi_tdt u50a_plus_att_st7701s_hd_dsi_coe u50a_plus_att_st7701s_hd_dsi_tdt"
+#CONFIG_CUSTOM_KERNEL_LCM="u5a_ili9806e_hd_dsi_tdt u50a_plus_att_st7701s_hd_dsi_coe u50a_plus_att_st7701s_hd_dsi_tdt"
 # CONFIG_MTK_LCM_DEVICE_TREE_SUPPORT is not set
 CONFIG_MTK_LENS=y
 # CONFIG_MTK_LENS_USE_MODULE is not set
