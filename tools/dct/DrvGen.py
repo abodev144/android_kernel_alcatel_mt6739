@@ -40,7 +40,6 @@ from obj.ChipObj import MT6775
 
 from utility.util import LogLevel
 from utility.util import log  
-    try:
         root = xml.dom.minidom.parse(dws_path)
     except Exception, e:
         log(LogLevel.warn, '%s is not xml format, try to use old DCT!' %(dws_path))
