@@ -39,13 +39,7 @@ from obj.ChipObj import MT6771
 from obj.ChipObj import MT6775
 
 from utility.util import LogLevel
-from utility.util import log
-
-def is_oldDws(path, gen_spec):
-    if not os.path.exists(path):
-        log(LogLevel.error, 'Can not find %s' %(path))
-        sys.exit(-1)
-
+from utility.util import log  
     try:
         root = xml.dom.minidom.parse(dws_path)
     except Exception, e:
